@@ -9,7 +9,8 @@ class Solution(object):
                 r -= 1
                 
         n = len(nums) # if length 6
-        k = k % n # remain 2
+        k = k % n # k = 2, n = 6 then 2 % 6 = 2
+        # print(k)
         rev(0, n-1) # reverse the entire array
         rev(0, k-1) # reverse the k-th element
         rev(k, n-1) # reverse the remain array
