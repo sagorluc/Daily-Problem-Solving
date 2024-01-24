@@ -3,9 +3,11 @@ class Solution:
         last_index = len(nums)-1
         # print(last_index)
         for i in range(len(nums)-2, -1, -1): # reverse iterate form the last second index to first index
-           print(i)
+           # print(i)
            if (i + nums[i]) >= last_index:
+               # print(i)
                last_index = i
+               
         return last_index == 0
         
         # another solution
