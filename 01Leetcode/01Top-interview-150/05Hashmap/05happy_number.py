@@ -5,7 +5,8 @@ class Solution:
             digit = num % 10   # last digit of number
             digit = digit ** 2
             ans = ans + digit 
-            num = num // 10    # next digit of number      
+            num = num // 10    # next digit of number 
+            # print(num)     
         return ans
     
     def isHappy(self, n: int) -> bool:
