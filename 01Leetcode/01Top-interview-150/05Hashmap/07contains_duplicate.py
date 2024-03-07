@@ -3,6 +3,7 @@ class Solution:
         window = set()
         left = 0
         
+        # Sliding window
         for right in range(len(nums)):
             # base case
             if right - left > k:
