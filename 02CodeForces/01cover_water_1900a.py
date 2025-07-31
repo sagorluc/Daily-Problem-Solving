@@ -52,3 +52,9 @@ for _ in range(T):
 # t = int(input())
 # for _ in range(t):
 #     solve()
+
+
+# n, ones=0
+# if a[i] == 1
+#     c++
+# return n - ones / 2
