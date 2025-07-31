@@ -4,6 +4,7 @@ class Solution:
         left = 0
         ans = 0
         
+        # Sliding window
         for right in range(len(s)):
             while s[right] in char_set:
                 char_set.remove(s[left])
